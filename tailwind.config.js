@@ -1,0 +1,90 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  darkMode: 'class',
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        display: ['"Baloo 2"', 'ui-rounded', 'sans-serif'],
+        body: ['"Inter"', 'ui-sans-serif', 'sans-serif'],
+      },
+      colors: {
+        ink: {
+          50: '#f3f5fb',
+          100: '#e4e8f4',
+          200: '#c3cbe4',
+          300: '#93a1cb',
+          400: '#5d6da9',
+          500: '#3c4a83',
+          600: '#2b3766',
+          700: '#212a4f',
+          800: '#161b38',
+          900: '#0e1226',
+          950: '#080a18',
+        },
+        teal: {
+          50: '#effdfb',
+          100: '#c8faf3',
+          200: '#92f2e6',
+          300: '#54e2d3',
+          400: '#22c9bb',
+          500: '#12b3a8',
+          600: '#0d8f88',
+          700: '#0f716d',
+          800: '#125a58',
+          900: '#134b4a',
+        },
+        coral: {
+          50: '#fff2ee',
+          100: '#ffe1d7',
+          200: '#ffbfab',
+          300: '#ff9576',
+          400: '#ff7a5c',
+          500: '#ff6b57',
+          600: '#ed4a33',
+          700: '#c73620',
+          800: '#a32e1e',
+          900: '#862a1e',
+        },
+        amber: {
+          50: '#fffaeb',
+          100: '#fff0c2',
+          200: '#ffe088',
+          300: '#ffc94d',
+          400: '#ffb020',
+          500: '#f79509',
+          600: '#d97404',
+          700: '#b45408',
+          800: '#92420e',
+          900: '#78380f',
+        },
+      },
+      borderRadius: {
+        '2xl': '1.25rem',
+        '3xl': '1.75rem',
+      },
+      boxShadow: {
+        soft: '0 8px 30px -12px rgba(14, 18, 38, 0.25)',
+        glow: '0 0 0 1px rgba(18,179,168,0.15), 0 8px 24px -8px rgba(18,179,168,0.35)',
+      },
+      keyframes: {
+        wave: {
+          '0%, 100%': { transform: 'scaleY(0.3)' },
+          '50%': { transform: 'scaleY(1)' },
+        },
+        floatSlow: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+      },
+      animation: {
+        wave1: 'wave 1.1s ease-in-out infinite',
+        wave2: 'wave 1.1s ease-in-out infinite 0.15s',
+        wave3: 'wave 1.1s ease-in-out infinite 0.3s',
+        wave4: 'wave 1.1s ease-in-out infinite 0.45s',
+        floatSlow: 'floatSlow 6s ease-in-out infinite',
+      },
+    },
+  },
+  plugins: [],
+}
