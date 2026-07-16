@@ -26,6 +26,16 @@ export const lessonRegistry = {
         "vocabulary-building/word-families": lazy(() => import("./vocab-build/introtoparts.jsx")),
 
                 "parts-of-speech/nouns-pronouns": lazy(() => import("./partsofspeech/nouns-pronouns.jsx")),
+                "parts-of-speech/verbs": lazy(() => import("./partsofspeech/verbs.jsx")),
+                "parts-of-speech/adjectives-adverbs": lazy(() => import("./partsofspeech/adjectives-adverbs.jsx")),
+                "parts-of-speech/prepositions-conjunctions": lazy(() => import("./partsofspeech/prepositions-conjunctions.jsx")),
+
+                "sentence-structure/subject-verb-object": lazy(() => import("./sentence-structure/subject-verb-object.jsx")),
+                "sentence-structure/simple-sentences": lazy(() => import("./sentence-structure/simple-sentences.jsx")),
+                "sentence-structure/compound-sentences": lazy(() => import("./sentence-structure/compound-sentences.jsx")),
+                "sentence-structure/negative-sentences": lazy(() => import("./sentence-structure/negative-sentences.jsx")),
+
+                "tenses/present-simple": lazy(() => import("./tenses/PresentSimple.jsx")),
 
 
   "tenses/present-simple": lazy(() => import("./tenses/PresentSimple.jsx")),
