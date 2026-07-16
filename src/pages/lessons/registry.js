@@ -20,6 +20,12 @@ export const lessonRegistry = {
     "english-basics/numbers": lazy(() => import("./english-basics/Numbers.jsx")),
     "english-basics/greetings": lazy(() => import("./english-basics/Greetings.jsx")),
 
+        "vocabulary-building/everyday-objects": lazy(() => import("./vocab-build/everydayobjects.jsx")),
+        "vocabulary-building/common-verbs": lazy(() => import("./vocab-build/100verbs.jsx")),
+        "vocabulary-building/adjectives-feelings": lazy(() => import("./vocab-build/adjectives.jsx")),
+        "vocabulary-building/word-families": lazy(() => import("./vocab-build/introtoparts.jsx")),
+
+
   "tenses/present-simple": lazy(() => import("./tenses/PresentSimple.jsx")),
   "speaking-practice/self-recording": lazy(() => import("./speaking-practice/SelfRecording.jsx")),
 };
