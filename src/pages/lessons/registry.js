@@ -25,6 +25,8 @@ export const lessonRegistry = {
         "vocabulary-building/adjectives-feelings": lazy(() => import("./vocab-build/adjectives.jsx")),
         "vocabulary-building/word-families": lazy(() => import("./vocab-build/introtoparts.jsx")),
 
+                "parts-of-speech/nouns-pronouns": lazy(() => import("./partsofspeech/nouns-pronouns.jsx")),
+
 
   "tenses/present-simple": lazy(() => import("./tenses/PresentSimple.jsx")),
   "speaking-practice/self-recording": lazy(() => import("./speaking-practice/SelfRecording.jsx")),
