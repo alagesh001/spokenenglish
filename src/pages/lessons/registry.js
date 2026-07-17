@@ -35,10 +35,28 @@ export const lessonRegistry = {
                 "sentence-structure/compound-sentences": lazy(() => import("./sentence-structure/compound-sentences.jsx")),
                 "sentence-structure/negative-sentences": lazy(() => import("./sentence-structure/negative-sentences.jsx")),
 
-                "tenses/present-simple": lazy(() => import("./tenses/PresentSimple.jsx")),
+                "tenses/present-simple": lazy(() => import("./tenses/simplepr.jsx")),
+                 "tenses/present-simple-full": lazy(() => import("./tenses/PresentSimple.jsx")),
+                "tenses/past-simple": lazy(() => import("./tenses/simplepast.jsx")),
+                                "tenses/past-simple-full": lazy(() => import("./tenses/past-simple.jsx")),
+                                "tenses/future-forms": lazy(() => import("./tenses/futuresimple.jsx")),
+                                "tenses/future-forms-full": lazy(() => import("./tenses/futurefull.jsx")),
+                                "tenses/continuous-intro": lazy(() => import("./tenses/continuoussimple.jsx")),
+                                "tenses/present-continuous-tenses": lazy(() => import("./tenses/presentcontfull.jsx")),
+                                "tenses/past-continuous-tenses": lazy(() => import("./tenses/pastcontfull.jsx")),
+                                "tenses/future-continuous-tenses": lazy(() => import("./tenses/futurecontfull.jsx")),
+                                "tenses/perfect-tense-intro": lazy(() => import("./tenses/perfecttenseintro.jsx")),
+                                "tenses/perfect-continuous-intro": lazy(() => import("./tenses/perfectcontinuous.jsx")),
+                                "tenses/since-for": lazy(() => import("./tenses/since-for.jsx")),
+
+                                "tenses/since-for": lazy(() => import("./tenses/since-for.jsx")),
+                                
+                                  "helping-verbs/be-do-have": lazy(() => import("./helping-verbs/be-do-have.jsx")),
+                                  "helping-verbs/can-could": lazy(() => import("./helping-verbs/can-could.jsx")),
+                                  "helping-verbs/will-would": lazy(() => import("./helping-verbs/will-would.jsx")),
+                                  "helping-verbs/should-must": lazy(() => import("./helping-verbs/should-must.jsx")),
 
 
-  "tenses/present-simple": lazy(() => import("./tenses/PresentSimple.jsx")),
   "speaking-practice/self-recording": lazy(() => import("./speaking-practice/SelfRecording.jsx")),
 };
 
