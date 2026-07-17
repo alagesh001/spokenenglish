@@ -56,6 +56,22 @@ export const lessonRegistry = {
                                   "helping-verbs/will-would": lazy(() => import("./helping-verbs/will-would.jsx")),
                                   "helping-verbs/should-must": lazy(() => import("./helping-verbs/should-must.jsx")),
 
+                                      "question-formation/yes-no-questions": lazy(() => import("./question-formation/yes-no-questions.jsx")),
+                                      "question-formation/wh-questions": lazy(() => import("./question-formation/wh-questions.jsx")),
+                                      "question-formation/tag-questions": lazy(() => import("./question-formation/tag-questions.jsx")),
+                                      "question-formation/indirect-questions": lazy(() => import("./question-formation/indirect-questions.jsx")),
+
+                                        "daily-conversation/small-talk": lazy(() => import("./daily-conversation/small-talk.jsx")),
+                                        "daily-conversation/shopping-dialogues": lazy(() => import("./daily-conversation/shopping-dialogues.jsx")),
+                                        "daily-conversation/phone-calls": lazy(() => import("./daily-conversation/phone-calls.jsx")),
+                                        "daily-conversation/asking-directions": lazy(() => import("./daily-conversation/asking-directions.jsx")),
+
+                                           "speaking-practice/picture-description": lazy(() => import("./speaking-practice/picture-description.jsx")),
+
+                                           "speaking-practice/opinion-sharing": lazy(() => import("./speaking-practice/opinion-sharing.jsx")),
+                                           "speaking-practice/vocabulary-in-context": lazy(() => import("./speaking-practice/vocabulary-in-context.jsx")),
+
+                                        
 
   "speaking-practice/self-recording": lazy(() => import("./speaking-practice/SelfRecording.jsx")),
 };
