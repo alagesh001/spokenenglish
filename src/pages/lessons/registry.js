@@ -71,7 +71,23 @@ export const lessonRegistry = {
                                            "speaking-practice/opinion-sharing": lazy(() => import("./speaking-practice/opinion-sharing.jsx")),
                                            "speaking-practice/vocabulary-in-context": lazy(() => import("./speaking-practice/vocabulary-in-context.jsx")),
 
-                                        
+                                      "grammar/articles": lazy(() => import("./grammar/articles.jsx")),
+                                      "grammar/plurals": lazy(() => import("./grammar/plurals.jsx")),
+                                    "grammar/comparatives-superlatives": lazy(() => import("./grammar/comparatives-superlatives.jsx")),
+                                    "grammar/common-errors": lazy(() => import("./grammar/common-errors.jsx")),
+
+                                     "real-life-practice/restaurant-role-play": lazy(() => import("./real-life-practice/restaurant-role-play.jsx")),
+                                     "real-life-practice/airport-travel": lazy(() => import("./real-life-practice/airport-travel.jsx")),
+                                     "real-life-practice/doctor-visit": lazy(() => import("./real-life-practice/doctor-visit.jsx")),
+                                     "real-life-practice/workplace-scenarios": lazy(() => import("./real-life-practice/workplace-scenarios.jsx")),
+
+                                     "advanced-english/idioms-daily-use": lazy(() => import("./advanced-english/idioms-daily-use.jsx")),
+                                      "advanced-english/phrasal-verbs": lazy(() => import("./advanced-english/phrasal-verbs.jsx")),
+                                     "advanced-english/subtle-tone": lazy(() => import("./advanced-english/subtle-tone.jsx")),
+                                     "advanced-english/conditional-sentences": lazy(() => import("./advanced-english/conditional-sentences.jsx")),
+
+
+
 
   "speaking-practice/self-recording": lazy(() => import("./speaking-practice/SelfRecording.jsx")),
 };
