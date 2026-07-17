@@ -1,8 +1,8 @@
 export const vocabulary = [
   // Home
-  { word: "Chair",  image: "https://cdn-icons-png.flaticon.com/512/3144/3144456.png", category: "Home" },
-  { word: "Table",image: "https://cdn-icons-png.flaticon.com/512/3144/3144456.png", category: "Home" },
-  { word: "Door", image: "https://cdn-icons-png.flaticon.com/512/3144/3144456.png", category: "Home" },
+  { word: "Chair",  image: "https://plus.unsplash.com/premium_photo-1705479742826-cb265b9d6999?q=80&w=687&auto=format", category: "Home" },
+  { word: "Table",image: "https://images.unsplash.com/photo-1573104049264-5324ea0027d5?q=80&w=1171&auto=format", category: "Home" },
+  { word: "Door", image: "https://images.unsplash.com/photo-1536160885591-301854e2ed04?q=80&w=687&auto=format", category: "Home" },
   { word: "Window", image: "https://cdn-icons-png.flaticon.com/512/3144/3144456.png", category: "Home" },
   { word: "Fan", image: "https://cdn-icons-png.flaticon.com/512/3144/3144456.png", category: "Home" },
   { word: "Bed", image: "https://cdn-icons-png.flaticon.com/512/3144/3144456.png", category: "Home" },

@@ -334,8 +334,9 @@ export const modules = [
     level: "Advanced",
     description: "Check your progress with regular, low-pressure reviews.",
     lessons: [
-      { id: "quiz-enter", title: "Start Quiz 1", duration: "10 min", summary: "Record a short answer and self-assess it.", content: "Answer a familiar question for one minute, record it, and rate yourself on clarity, grammar, and confidence out of five. Small, regular checkpoints reveal progress that's easy to miss day-to-day." },
-           { id: "quiz-enter-2", title: "Start Quiz 2", duration: "10 min", summary: "Record a short answer and self-assess it.", content: "Answer a familiar question for one minute, record it, and rate yourself on clarity, grammar, and confidence out of five. Small, regular checkpoints reveal progress that's easy to miss day-to-day." },
+      { id: "quiz-enter", title: "General Quiz", duration: "", summary: "All grammar and Tenses.", content: "Answer a familiar question for one minute, record it, and rate yourself on clarity, grammar, and confidence out of five. Small, regular checkpoints reveal progress that's easy to miss day-to-day." },
+           { id: "quiz-enter-2", title: "Comprehension 1", duration: "", summary: "Comprehension.", content: "Answer a familiar question for one minute, record it, and rate yourself on clarity, grammar, and confidence out of five. Small, regular checkpoints reveal progress that's easy to miss day-to-day." },
+           { id: "quiz-enter-3", title: "Comprehension 2", duration: "", summary: "Comprehension.", content: "Answer a familiar question for one minute, record it, and rate yourself on clarity, grammar, and confidence out of five. Small, regular checkpoints reveal progress that's easy to miss day-to-day." },
 
     ],
   },

@@ -97,6 +97,8 @@ export const lessonRegistry = {
                                     "group-activities/group-storytelling": lazy(() => import("./group-activities/group-storytelling.jsx")),
 
                                     "test-series/quiz-enter": lazy(() => import("./test-series/quiz-enter.jsx")),
+                                    "test-series/quiz-enter-2": lazy(() => import("./test-series/quiz-enter-2.jsx")),
+                                    "test-series/quiz-enter-3": lazy(() => import("./test-series/quiz-enter-3.jsx")),
 
 
   "speaking-practice/self-recording": lazy(() => import("./speaking-practice/SelfRecording.jsx")),
