@@ -86,7 +86,17 @@ export const lessonRegistry = {
                                      "advanced-english/subtle-tone": lazy(() => import("./advanced-english/subtle-tone.jsx")),
                                      "advanced-english/conditional-sentences": lazy(() => import("./advanced-english/conditional-sentences.jsx")),
 
+                                     "fluency-techniques/chunking": lazy(() => import("./fluency-techniques/chunking.jsx")),
+                                     "fluency-techniques/filler-phrases": lazy(() => import("./fluency-techniques/filler-phrases.jsx")),
+                                     "fluency-techniques/paraphrasing": lazy(() => import("./fluency-techniques/paraphrasing.jsx")),
+                                     "fluency-techniques/speed-building-drills": lazy(() => import("./fluency-techniques/speed-building-drills.jsx")),
 
+                                    "group-activities/role-play-groups": lazy(() => import("./group-activities/role-play-groups.jsx")),
+                                    "group-activities/debate-basics": lazy(() => import("./group-activities/debate-basics.jsx")),
+                                    "group-activities/peer-feedback": lazy(() => import("./group-activities/peer-feedback.jsx")),
+                                    "group-activities/group-storytelling": lazy(() => import("./group-activities/group-storytelling.jsx")),
+
+                                    "test-series/quiz-enter": lazy(() => import("./test-series/quiz-enter.jsx")),
 
 
   "speaking-practice/self-recording": lazy(() => import("./speaking-practice/SelfRecording.jsx")),

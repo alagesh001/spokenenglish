@@ -327,19 +327,18 @@ export const modules = [
       { id: "group-storytelling", title: "Group Storytelling", duration: "10 min", summary: "Build a story together, one sentence at a time.", content: "In group storytelling, each person adds one sentence to a growing story. This activity trains quick thinking and listening simultaneously, since you must remember what came before." },
     ],
   },
-  // {
-  //   id: "weekly-assessments",
-  //   title: "Weekly Assessments",
-  //   icon: "ClipboardCheck",
-  //   level: "Advanced",
-  //   description: "Check your progress with regular, low-pressure reviews.",
-  //   lessons: [
-  //     { id: "speaking-checkpoint", title: "Speaking Checkpoint", duration: "10 min", summary: "Record a short answer and self-assess it.", content: "Answer a familiar question for one minute, record it, and rate yourself on clarity, grammar, and confidence out of five. Small, regular checkpoints reveal progress that's easy to miss day-to-day." },
-  //     { id: "vocabulary-review", title: "Vocabulary Review", duration: "9 min", summary: "Test recall of recently learned words.", content: "Pick fifteen words you've learned this week and try to use each one in a new sentence, without looking at notes. This active recall builds much stronger memory than simply re-reading a list." },
-  //     { id: "grammar-quiz", title: "Grammar Quiz", duration: "10 min", summary: "Review common grammar points from this week.", content: "Write five sentences using a grammar point you studied this week — tenses, articles, or question forms — and check them against the rule. Self-correction builds awareness faster than being corrected by someone else." },
-  //     { id: "progress-reflection", title: "Weekly Progress Reflection", duration: "8 min", summary: "Reflect honestly on wins and next steps.", content: "End each week by writing three sentences: what improved, what still feels hard, and one specific thing to focus on next week. This short ritual keeps your learning intentional rather than random." },
-  //   ],
-  // },
+  {
+    id: "test-series",
+    title: "Quiz",
+    icon: "ClipboardCheck",
+    level: "Advanced",
+    description: "Check your progress with regular, low-pressure reviews.",
+    lessons: [
+      { id: "quiz-enter", title: "Start Quiz 1", duration: "10 min", summary: "Record a short answer and self-assess it.", content: "Answer a familiar question for one minute, record it, and rate yourself on clarity, grammar, and confidence out of five. Small, regular checkpoints reveal progress that's easy to miss day-to-day." },
+           { id: "quiz-enter-2", title: "Start Quiz 2", duration: "10 min", summary: "Record a short answer and self-assess it.", content: "Answer a familiar question for one minute, record it, and rate yourself on clarity, grammar, and confidence out of five. Small, regular checkpoints reveal progress that's easy to miss day-to-day." },
+
+    ],
+  },
 ];
 
 // Convenience helpers used across the app — keep all lookup logic here
