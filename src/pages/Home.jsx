@@ -5,7 +5,8 @@ import PageWrapper from "../components/PageWrapper";
 import ModuleCard from "../components/ModuleCard";
 import Waveform from "../components/Waveform";
 import { modules, getTotalLessonCount } from "../data/modules";
-
+import { Settings } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 const stats = [
   { icon: Sparkles, label: "Modules", value: modules.length },
   { icon: Target, label: "Guided lessons", value: getTotalLessonCount() },
@@ -13,22 +14,28 @@ const stats = [
 ];
 
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <PageWrapper>
       {/* Hero */}
-      <section className="relative overflow-hidden">
+     
         <div className="absolute inset-0 -z-10">
+          
           <div className="absolute top-[-10%] left-[-5%] w-72 h-72 rounded-full bg-teal-200/40 dark:bg-teal-500/10 blur-3xl animate-floatSlow" />
           <div className="absolute top-[20%] right-[-8%] w-80 h-80 rounded-full bg-coral-200/40 dark:bg-coral-500/10 blur-3xl animate-floatSlow" style={{ animationDelay: "1.5s" }} />
         </div>
-
+ <section className="relative overflow-hidden">
+             
         <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-16 sm:pt-24 pb-16 text-center">
+         
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/70 dark:bg-ink-900/60 border border-ink-100 dark:border-ink-800 text-sm text-ink-600 dark:text-ink-300 shadow-soft"
           >
+  
             <span className="text-teal-500 dark:text-teal-300"><Waveform /></span>
             Built for confident, everyday spoken English
           </motion.div>
@@ -50,7 +57,7 @@ export default function Home() {
             transition={{ duration: 0.55, delay: 0.12 }}
             className="mt-5 max-w-xl mx-auto text-base sm:text-lg text-ink-500 dark:text-ink-400"
           >
-            24 structured modules, real conversations, and guided speaking practice —
+            15 structured modules, real conversations, and guided speaking practice —
             built for beginners who want to actually talk, not just study grammar.
           </motion.p>
 
@@ -72,6 +79,13 @@ export default function Home() {
             >
               Try a speaking drill
             </Link>
+              <button
+          onClick={() => navigate("/settings")}
+                      className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/70 dark:bg-ink-900/60 border border-ink-100 dark:border-ink-800 text-sm text-ink-600 dark:text-ink-300 shadow-soft"
+
+        >
+          <Settings size={22} />
+        </button>    
           </motion.div>
 
           <motion.div
