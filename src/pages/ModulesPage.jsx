@@ -4,14 +4,12 @@ import PageWrapper from "../components/PageWrapper";
 import ModuleCard from "../components/ModuleCard";
 import EmptyState from "../components/EmptyState";
 import { modules } from "../data/modules";
-import { Settings } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+
 
 const levels = ["All", "Beginner", "Intermediate", "Advanced"];
 
 export default function ModulesPage() {
   const [level, setLevel] = useState("All");
-const navigate = useNavigate();
 
   const filtered = useMemo(
     () => (level === "All" ? modules : modules.filter((m) => m.level === level)),
@@ -25,25 +23,7 @@ const navigate = useNavigate();
         <h1 className="font-display font-bold text-3xl sm:text-4xl text-ink-900 dark:text-white">
           All Modules
         </h1>
-                  <button
-  onClick={() => navigate("/settings")}
-  className="
-    fixed
-    top-5
-    right-5
-    z-50
-    p-3
-    bg-white
-    rounded-full
-    shadow-lg
-    border
-    hover:rotate-90
-    transition-all
-    duration-300
-  "
->
-  <Settings size={22} />
-</button>
+      
         <p className="mt-2 text-ink-500 dark:text-ink-400 max-w-xl">
           {modules.length} modules covering everything from your first words to advanced,
           confident conversation.

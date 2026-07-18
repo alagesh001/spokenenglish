@@ -7,6 +7,9 @@ import Waveform from "../components/Waveform";
 import { modules, getTotalLessonCount } from "../data/modules";
 import { Settings } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { checkToken } from "../api/authApi";
+import React, { useState,useEffect } from "react";
+
 const stats = [
   { icon: Sparkles, label: "Modules", value: modules.length },
   { icon: Target, label: "Guided lessons", value: getTotalLessonCount() },
@@ -15,7 +18,29 @@ const stats = [
 
 export default function Home() {
   const navigate = useNavigate();
+  const storedGym = JSON.parse(localStorage.getItem("gyms"));
 
+const firstGym = storedGym?.[0];
+
+   const [selectedGym, setSelectedGym] = useState(firstGym);
+      const tokenIs = localStorage.getItem("accessToken");
+
+const [accessToken, setAccessToken] = useState(tokenIs);
+useEffect(() => {
+  const verify = async () => {
+    const valid = await checkToken({
+      gymId: firstGym.GymId,
+      token: tokenIs,
+      mobile: selectedGym.mob,
+    });
+
+    if (!valid) {
+      //navigate("/login");
+    }
+  };
+
+  //verify();
+}, []);
   return (
     <PageWrapper>
       {/* Hero */}
