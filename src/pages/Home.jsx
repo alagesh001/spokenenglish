@@ -27,6 +27,17 @@ const firstGym = storedGym?.[0];
 
 const [accessToken, setAccessToken] = useState(tokenIs);
 useEffect(() => {
+   const isLoggedIn =
+    localStorage.getItem("isLoggedInWeb") === "true";
+
+  if (!isLoggedIn) {
+    localStorage.removeItem("gyms");
+    localStorage.removeItem("selectedGymai");
+    localStorage.removeItem("accessToken");
+
+    return navigate("/login");
+  }
+
   const verify = async () => {
     const valid = await checkToken({
       gymId: firstGym.GymId,

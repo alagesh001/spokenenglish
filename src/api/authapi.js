@@ -1,7 +1,7 @@
 import axios from "axios";
 import Swal from "sweetalert2";
 
-    const apiBase = "https://oxadmedia.online";
+    const apiBase = "https://oxadmedia.in";
 
 export const refreshAccessToken = async (mobile) => {
   try {
