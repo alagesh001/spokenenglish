@@ -48,6 +48,12 @@ export const modules = [
       { id: "verbs", title: "Verbs", duration: "9 min", summary: "Understand action and state-of-being words.", content: "Verbs show action ('run', 'speak') or state ('is', 'seem'). Every complete English sentence needs one. Try building five simple sentences using only one verb each to feel this rule in action." },
       { id: "adjectives-adverbs", title: "Adjectives & Adverbs", duration: "10 min", summary: "Describe nouns and modify verbs precisely.", content: "Adjectives describe nouns ('a fast car'), while adverbs describe verbs, adjectives, or other adverbs ('drives fast', 'very fast'). Notice how many adverbs end in '-ly' — that's a useful pattern to recognise quickly." },
       { id: "prepositions-conjunctions", title: "Prepositions & Conjunctions", duration: "12 min", summary: "Connect ideas and show relationships between words.", content: "Prepositions (in, on, at, under) show position or time. Conjunctions (and, but, because) join ideas together. Together, they're the glue that turns separate words into a flowing sentence." },
+          { id: "test-1", title: "Test 1", duration: "10 min", summary: "Nouns & Pronouns", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+          { id: "test-2", title: "Test 2", duration: "10 min", summary: "Verbs, Adjectives & Adverbs ", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+          { id: "test-3", title: "Test 3", duration: "10 min", summary: "Prepositions & Conjunctions", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+
+    
+    
     ],
   },
   {
@@ -61,6 +67,8 @@ export const modules = [
       { id: "simple-sentences", title: "Simple Sentences", duration: "8 min", summary: "Write and speak clear, single-idea sentences.", content: "A simple sentence expresses one complete thought: 'She works in a hospital.' Practise speaking in short, simple sentences before trying to combine ideas — clarity always beats complexity for a beginner speaker." },
       { id: "compound-sentences", title: "Compound Sentences", duration: "11 min", summary: "Join two ideas using 'and', 'but', and 'or'.", content: "A compound sentence links two simple sentences with a joining word: 'I wanted to go out, but it started raining.' This is one of the fastest ways to sound more fluent without learning new grammar rules." },
       { id: "negative-sentences", title: "Making Sentences Negative", duration: "9 min", summary: "Use 'not', 'don't', and 'doesn't' correctly.", content: "To make a sentence negative, English usually adds a helping verb plus 'not': 'I don't like coffee.' Practise turning ten positive sentences you already know into negative ones." },
+             { id: "test-1", title: "Test 1", duration: "10 min", summary: "Sentence Structure", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+
     ],
   },
   {
@@ -87,6 +95,9 @@ export const modules = [
       { id: "perfect-tense-intro", title: "Perfect Tense", duration: "13 min", summary: "Describe actions in progress at a point in time.", content: "Continuous tenses (am/is/are + -ing) describe actions happening right now or around a specific time: 'I am learning English.' Try narrating what you're doing at this exact moment out loud." },
       { id: "perfect-continuous-intro", title: "Perfect Continuous", duration: "13 min", summary: "Describe actions in progress at a point in time.", content: "Continuous tenses (am/is/are + -ing) describe actions happening right now or around a specific time: 'I am learning English.' Try narrating what you're doing at this exact moment out loud." },
       { id: "since-for", title: "Since & For", duration: "13 min", summary: "Describe actions in progress at a point in time.", content: "Continuous tenses (am/is/are + -ing) describe actions happening right now or around a specific time: 'I am learning English.' Try narrating what you're doing at this exact moment out loud." },
+             { id: "test-1", title: "Test 1", duration: "10 min", summary: "Present Tense", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+             { id: "test-2", title: "Test 2", duration: "10 min", summary: "Past Tense", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+             { id: "test-3", title: "Test 3", duration: "10 min", summary: "Future Tense", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
 
     
     ],
@@ -102,6 +113,9 @@ export const modules = [
       { id: "can-could", title: "Can & Could", duration: "9 min", summary: "Express ability and polite requests.", content: "'Can' shows present ability ('I can swim') and 'could' shows past ability or a polite request ('Could you help me?'). Practise both in short role-play conversations." },
       { id: "will-would", title: "Will & Would", duration: "9 min", summary: "Talk about future intentions and hypotheticals.", content: "'Will' expresses future decisions ('I will call you'), while 'would' softens requests or describes hypothetical situations ('I would love to visit Japan'). Compare both in matching sentence pairs." },
       { id: "should-must", title: "Should & Must", duration: "10 min", summary: "Give advice and express obligation.", content: "'Should' gives advice or a suggestion ('You should rest'), while 'must' expresses strong obligation or necessity ('You must submit the form today'). Practise giving a friend three pieces of advice using 'should'." },
+                 { id: "test-1", title: "Test 1", duration: "10 min", summary: "Be Do Have", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+                 { id: "test-2", title: "Test 2", duration: "10 min", summary: "Can, Could, Will, Would, Should, Must", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+
     ],
   },
   {

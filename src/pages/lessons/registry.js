@@ -26,14 +26,20 @@ export const lessonRegistry = {
         "vocabulary-building/word-families": lazy(() => import("./vocab-build/introtoparts.jsx")),
 
                 "parts-of-speech/nouns-pronouns": lazy(() => import("./partsofspeech/nouns-pronouns.jsx")),
+                "parts-of-speech/test-1": lazy(() => import("./partsofspeech/test-1.jsx")),
+                                "parts-of-speech/test-2": lazy(() => import("./partsofspeech/test-2.jsx")),
+                "parts-of-speech/test-3": lazy(() => import("./partsofspeech/test-3.jsx")),
                 "parts-of-speech/verbs": lazy(() => import("./partsofspeech/verbs.jsx")),
                 "parts-of-speech/adjectives-adverbs": lazy(() => import("./partsofspeech/adjectives-adverbs.jsx")),
                 "parts-of-speech/prepositions-conjunctions": lazy(() => import("./partsofspeech/prepositions-conjunctions.jsx")),
+                
 
                 "sentence-structure/subject-verb-object": lazy(() => import("./sentence-structure/subject-verb-object.jsx")),
                 "sentence-structure/simple-sentences": lazy(() => import("./sentence-structure/simple-sentences.jsx")),
                 "sentence-structure/compound-sentences": lazy(() => import("./sentence-structure/compound-sentences.jsx")),
                 "sentence-structure/negative-sentences": lazy(() => import("./sentence-structure/negative-sentences.jsx")),
+                                "sentence-structure/test-1": lazy(() => import("./sentence-structure/test-1.jsx")),
+
 
                 "tenses/present-simple": lazy(() => import("./tenses/simplepr.jsx")),
                  "tenses/present-simple-full": lazy(() => import("./tenses/PresentSimple.jsx")),
@@ -48,13 +54,19 @@ export const lessonRegistry = {
                                 "tenses/perfect-tense-intro": lazy(() => import("./tenses/perfecttenseintro.jsx")),
                                 "tenses/perfect-continuous-intro": lazy(() => import("./tenses/perfectcontinuous.jsx")),
                                 "tenses/since-for": lazy(() => import("./tenses/since-for.jsx")),
-
                                 "tenses/since-for": lazy(() => import("./tenses/since-for.jsx")),
+                                 "tenses/test-1": lazy(() => import("./tenses/test-1.jsx")),
+                                 "tenses/test-2": lazy(() => import("./tenses/test-2.jsx")),
+                                 "tenses/test-3": lazy(() => import("./tenses/test-3.jsx")),
+
                                 
                                   "helping-verbs/be-do-have": lazy(() => import("./helping-verbs/be-do-have.jsx")),
                                   "helping-verbs/can-could": lazy(() => import("./helping-verbs/can-could.jsx")),
                                   "helping-verbs/will-would": lazy(() => import("./helping-verbs/will-would.jsx")),
                                   "helping-verbs/should-must": lazy(() => import("./helping-verbs/should-must.jsx")),
+                                           "helping-verbs/test-1": lazy(() => import("./helping-verbs/test-1.jsx")),
+                                           "helping-verbs/test-2": lazy(() => import("./helping-verbs/test-2.jsx")),
+
 
                                       "question-formation/yes-no-questions": lazy(() => import("./question-formation/yes-no-questions.jsx")),
                                       "question-formation/wh-questions": lazy(() => import("./question-formation/wh-questions.jsx")),
