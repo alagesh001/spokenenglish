@@ -129,6 +129,12 @@ export const modules = [
       { id: "wh-questions", title: "Wh- Questions", duration: "11 min", summary: "Ask who, what, where, when, why, and how.", content: "Wh- questions ask for specific information rather than yes or no: 'Where do you live?' 'Why are you late?' These are the backbone of real conversation, since they invite a detailed answer." },
       { id: "tag-questions", title: "Tag Questions", duration: "9 min", summary: "Add a short question to confirm or check something.", content: "A tag question is added to the end of a statement to check agreement: 'It's cold today, isn't it?' Notice how the tag flips polarity — positive statement, negative tag, and vice versa." },
       { id: "indirect-questions", title: "Polite Indirect Questions", duration: "10 min", summary: "Ask sensitive or formal questions politely.", content: "Indirect questions soften a request: instead of 'Where is the station?' you might say 'Could you tell me where the station is?' This form is especially useful in professional or unfamiliar settings." },
+                     { id: "test-1", title: "Test 1", duration: "10 min", summary: "Yes/No Questions", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+                 { id: "test-2", title: "Test 2", duration: "10 min", summary: "Wh- Questions", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+                 { id: "test-3", title: "Test 3", duration: "10 min", summary: "Tag Questions", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+                 { id: "test-4", title: "Test 4", duration: "10 min", summary: "Polite Indirect Questions", content: "A noun names a person, place, thing, or idea. A pronoun (he, she, it, they) stands in for a noun so you don't repeat it constantly. Practise replacing nouns with the correct pronoun in short sentences." },
+
+    
     ],
   },
   {

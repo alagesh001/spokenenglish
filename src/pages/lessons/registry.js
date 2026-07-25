@@ -72,6 +72,10 @@ export const lessonRegistry = {
                                       "question-formation/wh-questions": lazy(() => import("./question-formation/wh-questions.jsx")),
                                       "question-formation/tag-questions": lazy(() => import("./question-formation/tag-questions.jsx")),
                                       "question-formation/indirect-questions": lazy(() => import("./question-formation/indirect-questions.jsx")),
+                                           "question-formation/test-1": lazy(() => import("./question-formation/test-1.jsx")),
+                                           "question-formation/test-2": lazy(() => import("./question-formation/test-2.jsx")),
+                                           "question-formation/test-3": lazy(() => import("./question-formation/test-3.jsx")),
+                                           "question-formation/test-4": lazy(() => import("./question-formation/test-4.jsx")),
 
                                         "daily-conversation/small-talk": lazy(() => import("./daily-conversation/small-talk.jsx")),
                                         "daily-conversation/shopping-dialogues": lazy(() => import("./daily-conversation/shopping-dialogues.jsx")),
