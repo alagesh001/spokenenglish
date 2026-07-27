@@ -436,6 +436,8 @@ export const modules = [
       { id: "phrasal-verbs", title: "Phrasal Verbs", duration: "12 min", summary: "Use two- and three-word verbs naturally.", content: "Phrasal verbs like 'give up', 'look into', and 'come across' are extremely common in natural speech. Practise replacing a formal verb ('investigate') with its phrasal equivalent ('look into')." },
       { id: "subtle-tone", title: "Tone & Register", duration: "10 min", summary: "Match your language to formal and informal settings.", content: "The same idea can be said formally ('I would appreciate your assistance') or casually ('Could you give me a hand?'). Practise saying the same request in both a formal and casual register." },
       { id: "conditional-sentences", title: "Advanced Conditionals", duration: "13 min", summary: "Express hypotheticals and regrets precisely.", content: "Conditionals let you discuss hypotheticals ('If I had more time, I would travel more') and regrets ('If I had studied, I would have passed'). Practise building one example of each conditional type." },
+          { id: "vocab-build", title: "Advanced Vocabulary Builder", duration: "13 min", summary: "Build a stronger vocabulary to express yourself more precisely.", content: "Conditionals let you discuss hypotheticals ('If I had more time, I would travel more') and regrets ('If I had studied, I would have passed'). Practise building one example of each conditional type." },
+
     ],
   },
   {

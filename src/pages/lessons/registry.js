@@ -114,6 +114,8 @@ export const lessonRegistry = {
                                       "advanced-english/phrasal-verbs": lazy(() => import("./advanced-english/phrasal-verbs.jsx")),
                                      "advanced-english/subtle-tone": lazy(() => import("./advanced-english/subtle-tone.jsx")),
                                      "advanced-english/conditional-sentences": lazy(() => import("./advanced-english/conditional-sentences.jsx")),
+                             "advanced-english/vocab-build": lazy(() => import("./advanced-english/vocab-build.jsx")),
+
 
                                      "fluency-techniques/chunking": lazy(() => import("./fluency-techniques/chunking.jsx")),
                                      "fluency-techniques/filler-phrases": lazy(() => import("./fluency-techniques/filler-phrases.jsx")),
