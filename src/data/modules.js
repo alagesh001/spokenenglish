@@ -302,10 +302,127 @@ export const modules = [
     level: "Advanced",
     description: "Apply your English to real, unscripted situations.",
     lessons: [
-      { id: "restaurant-role-play", title: "At a Restaurant", duration: "9 min", summary: "Order food and handle common restaurant situations.", content: "Practise a full restaurant scenario: greeting the waiter, asking about the menu, ordering, and requesting the bill. Try improvising if the 'waiter' recommends something you didn't ask for." },
-      { id: "airport-travel", title: "At the Airport", duration: "10 min", summary: "Navigate check-in, security, and boarding in English.", content: "Airport English is often formulaic: 'Boarding pass and passport, please', 'Window or aisle seat?' Practise a full check-in conversation from arrival to the boarding gate." },
-      { id: "doctor-visit", title: "At the Doctor's", duration: "10 min", summary: "Describe symptoms and understand medical advice.", content: "Practise describing a symptom clearly: 'I've had a headache for two days' rather than just 'I feel bad.' Clear, specific descriptions help you get better guidance in any real medical visit." },
-      { id: "workplace-scenarios", title: "Workplace Scenarios", duration: "11 min", summary: "Handle common day-to-day office situations.", content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." },
+     { 
+  id: "restaurant-role-play", 
+  title: "At a Restaurant", 
+  duration: "9 min", 
+  summary: "Order food, ask questions, and handle common restaurant situations.", 
+  content: "Practise a full restaurant scenario: greeting the waiter, asking about the menu, ordering, and requesting the bill. Try improvising if the 'waiter' recommends something you didn't ask for." 
+},
+
+{ 
+  id: "airport-travel", 
+  title: "At the Airport", 
+  duration: "10 min", 
+  summary: "Communicate confidently at check-in, security, and boarding.", 
+  content: "Airport English is often formulaic: 'Boarding pass and passport, please', 'Window or aisle seat?' Practise a full check-in conversation from arrival to the boarding gate." 
+},
+
+{ 
+  id: "doctor-visit", 
+  title: "At the Doctor's", 
+  duration: "10 min", 
+  summary: "Describe your symptoms clearly and understand medical advice.", 
+  content: "Practise describing a symptom clearly: 'I've had a headache for two days' rather than just 'I feel bad.' Clear, specific descriptions help you get better guidance in any real medical visit." 
+},
+
+{ 
+  id: "workplace-scenarios", 
+  title: "Workplace Scenarios", 
+  duration: "11 min", 
+  summary: "Handle common workplace conversations and professional situations.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+{ 
+  id: "daily-routine", 
+  title: "Daily Routine", 
+  duration: "11 min", 
+  summary: "Talk naturally about your typical day and daily activities.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+{ 
+  id: "making-plans", 
+  title: "Making Plans", 
+  duration: "11 min", 
+  summary: "Discuss plans, suggest ideas, and decide what to do together.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+{ 
+  id: "invite-someone", 
+  title: "Inviting Someone", 
+  duration: "11 min", 
+  summary: "Invite someone to an activity and respond to invitations naturally.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+{ 
+  id: "make-appointment", 
+  title: "Making Appointments", 
+  duration: "11 min", 
+  summary: "Schedule, change, and cancel appointments politely.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+{ 
+  id: "weather-talk", 
+  title: "Talk about Weather", 
+  duration: "11 min", 
+  summary: "Make casual conversations about the weather and daily life.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+{ 
+  id: "opinion-express", 
+  title: "Expressing Opinions", 
+  duration: "11 min", 
+  summary: "Share your opinions and explain your thoughts clearly.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+{ 
+  id: "agree-disagree", 
+  title: "Agreeing and Disagreeing", 
+  duration: "11 min", 
+  summary: "Agree or disagree with others politely and respectfully.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+{ 
+  id: "ask-help", 
+  title: "Asking for Help", 
+  duration: "11 min", 
+  summary: "Ask for assistance clearly, politely, and confidently.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+{ 
+  id: "make-complaint", 
+  title: "Making a Complaint", 
+  duration: "11 min", 
+  summary: "Explain problems clearly and request solutions politely.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+{ 
+  id: "at-bank", 
+  title: "At the Bank", 
+  duration: "11 min", 
+  summary: "Communicate with bank staff and handle common banking needs.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+{ 
+  id: "converse-going", 
+  title: "Keep the Conversation Going", 
+  duration: "11 min", 
+  summary: "Ask follow-up questions and keep conversations flowing naturally.", 
+  content: "Practise short workplace exchanges: asking a colleague for help, explaining you're running late, or requesting feedback on your work. These small, frequent interactions build fluency fast." 
+},
+
+         
     ],
   },
   {

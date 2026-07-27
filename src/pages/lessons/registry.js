@@ -96,7 +96,20 @@ export const lessonRegistry = {
                                      "real-life-practice/airport-travel": lazy(() => import("./real-life-practice/airport-travel.jsx")),
                                      "real-life-practice/doctor-visit": lazy(() => import("./real-life-practice/doctor-visit.jsx")),
                                      "real-life-practice/workplace-scenarios": lazy(() => import("./real-life-practice/workplace-scenarios.jsx")),
+                                     "real-life-practice/daily-routine": lazy(() => import("./real-life-practice/daily-routine.jsx")),
+                                     "real-life-practice/making-plans": lazy(() => import("./real-life-practice/making-plans.jsx")),
+                                     "real-life-practice/invite-someone": lazy(() => import("./real-life-practice/invite-someone.jsx")),
+                                     "real-life-practice/make-appointment": lazy(() => import("./real-life-practice/make-appointment.jsx")),
+                                     "real-life-practice/weather-talk": lazy(() => import("./real-life-practice/weather-talk.jsx")),
+                                     "real-life-practice/opinion-express": lazy(() => import("./real-life-practice/opinion-express.jsx")),
+                                     "real-life-practice/agree-disagree": lazy(() => import("./real-life-practice/agree-disagree.jsx")),
+                                     "real-life-practice/ask-help": lazy(() => import("./real-life-practice/ask-help.jsx")),
+                                     "real-life-practice/make-complaint": lazy(() => import("./real-life-practice/make-complaint.jsx")),
+                                     "real-life-practice/at-bank": lazy(() => import("./real-life-practice/at-bank.jsx")),
+                                     "real-life-practice/converse-going": lazy(() => import("./real-life-practice/converse-going.jsx")),
 
+                                     
+                                    
                                      "advanced-english/idioms-daily-use": lazy(() => import("./advanced-english/idioms-daily-use.jsx")),
                                       "advanced-english/phrasal-verbs": lazy(() => import("./advanced-english/phrasal-verbs.jsx")),
                                      "advanced-english/subtle-tone": lazy(() => import("./advanced-english/subtle-tone.jsx")),
